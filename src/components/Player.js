@@ -9,9 +9,9 @@ const Player = () => {
   return (
     <div className="player">
       <div className="time-control">
-        <p>Start Timer</p>
+        <p>Start Time</p>
         <input type="range" />
-        <p>End Timer</p>
+        <p>End Time</p>
       </div>
       <div className="play-control">
         <FontAwesomeIcon className="skip-back" size="2x" icon={faAngleLeft} />
