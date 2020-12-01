@@ -8,7 +8,7 @@ function chillHop(){
             artist: "Aviino",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=10448",
             color: ["#F2CFEC", "#60709D"],
-            id: "uuidv4()",
+            id: uuidv4(),
             active: true
         },
         {
@@ -17,7 +17,7 @@ function chillHop(){
             artist: "Leavv",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=9919",
             color: ["#355546", "#778574"],
-            id: "uuidv4()",
+            id: uuidv4(),
             active: false
         },
         {
@@ -26,7 +26,7 @@ function chillHop(){
             artist: "Philanthrope, chromonicci",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=10263",
             color: ["#6A433B", "#1B1313"],
-            id: "uuidv4()",
+            id: uuidv4(),
             active: false
         },
         {
@@ -35,7 +35,7 @@ function chillHop(){
             artist: "Knowmadic",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=8554",
             color: ["#554753", "#969A86"],
-            id: "uuidv4()",
+            id: uuidv4(),
             active: false
         },
         {
@@ -44,7 +44,7 @@ function chillHop(){
             artist: "Osvaldo, Garot Michael Conklin",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=8192",
             color: ["#557C86", "#919984"],
-            id: "uuidv4()",
+            id: uuidv4(),
             active: false
         },
         {
@@ -53,7 +53,7 @@ function chillHop(){
             artist: "Nymano, Kanisan, Mau",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=10134",
             color: ["#5B518A", "#8E6A8F"],
-            id: "uuidv4()",
+            id: uuidv4(),
             active: false
         }
     ]
