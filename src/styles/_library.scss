@@ -15,7 +15,7 @@
 .library-song {
   display: flex;
   align-items: center;
-  padding: 1rem 2rem 0rem 2rem;
+  padding: 1rem 2rem 1rem 2rem;
   cursor: pointer;
 
   img {
@@ -56,4 +56,8 @@
   background-color: rgba(155, 155, 155, 0.2);
   border-radius: 20px;
   border: transparent;
+}
+
+.selected {
+  background: rgb(178, 217, 233);
 }
