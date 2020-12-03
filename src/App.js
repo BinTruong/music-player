@@ -7,7 +7,7 @@ import Nav from './components/Nav'
 //! Import styles
 import "./styles/app.scss";
 //! Import util
-import data from "./util";
+import data from "./data";
 
 function App() {
   //todo Ref
