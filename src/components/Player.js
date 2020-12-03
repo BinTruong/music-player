@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleLeft,
@@ -15,7 +16,26 @@ const Player = ({
   setSongInfo,
   songInfo,
   songs,
+  setSongs,
 }) => {
+  //! Active Song Skipping (Đổi màu khi chọn nhạc thông qua nút back & forward)
+  useEffect(() => {
+    const newSongs = songs.map((song) => {
+      if (song.id === currentSong.id) {
+        return {
+          ...song,
+          active: true,
+        };
+      } else {
+        return {
+          ...song,
+          active: false,
+        };
+      }
+    });
+    setSongs(newSongs);
+  }, [currentSong]);
+
   //todo Event Handler
   const playSongHandler = () => {
     if (isPlaying) {
