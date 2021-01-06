@@ -1,0 +1,13 @@
+//! Active Song Skipping (Đổi màu khi chọn nhạc thông qua nút back & forward)
+
+//! Add active state (Đổi màu khi chọn nhạc đang nghe)
+
+//! Check if the song is playing
+
+//! Import conponents
+
+//! Import styles
+
+//! Import util
+
+//! State
